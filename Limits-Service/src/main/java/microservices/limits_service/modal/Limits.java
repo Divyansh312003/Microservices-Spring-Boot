@@ -1,12 +1,13 @@
 package microservices.limits_service.modal;
 
 public class Limits {
-    int maxi;
     int mini;
+    int maxi;
 
-    public Limits(int maxi, int mini) {
-        this.maxi = maxi;
+    public Limits(int mini, int maxi) {
         this.mini = mini;
+        this.maxi = maxi;
+
     }
 
     public int getMaxi() {
